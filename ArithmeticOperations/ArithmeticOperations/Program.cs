@@ -52,16 +52,16 @@ namespace ArithmeticOperations
             line7 = "The remainder of " + number1 + " divided by " + number2 + " is ";
 
             drawLine();
-            Console.WriteLine($"| {"Table of Arithemtic Operations", 53} {"|", 25}");
+            Console.WriteLine($"| {"Table of Arithemtic Operations", 53}  {"|", 25}");
             drawLine();
 
-            Console.WriteLine($"| {"Your First Name is",-50} | {firstName,-25}");
-            Console.WriteLine($"| {"Your Last Name is",-50} | {lastName,-25}");
-            Console.WriteLine($"| {line3, -50} | {sum, 25}");
-            Console.WriteLine($"| {line4, -50} | {difference, 25}");
-            Console.WriteLine($"| {line5, -50} | {product, 25}");
-            Console.WriteLine($"| {line6, -50} | {quotient, 25}");
-            Console.WriteLine($"| {line7, -50} | {remainder, 25}");
+            Console.WriteLine($"| {"Your First Name is",-50} | {firstName,-25} |");
+            Console.WriteLine($"| {"Your Last Name is",-50} | {lastName,-25} |");
+            Console.WriteLine($"| {line3, -50} | {sum, 25} |");
+            Console.WriteLine($"| {line4, -50} | {difference, 25} |");
+            Console.WriteLine($"| {line5, -50} | {product, 25} |");
+            Console.WriteLine($"| {line6, -50} | {quotient, 25} |");
+            Console.WriteLine($"| {line7, -50} | {remainder, 25} |");
             drawLine();
         }
         public static void drawLine()

@@ -11,7 +11,6 @@ namespace FirstClass
         static void Main(string[] args)
         {
             Console.WriteLine("This is my first C# Program");
-            Console.WriteLine("Test");
         }
     }
 }
